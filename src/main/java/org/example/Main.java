@@ -28,6 +28,6 @@ public class Main {
         } catch (InputMismatchException e ){
             e.printStackTrace();
         }
-        System.out.println(terminalBanco);
+        terminalBanco.printAccount();
     }
 }

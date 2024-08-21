@@ -6,6 +6,10 @@ public class TerminalBanco {
     private String name;
     private double balance;
 
+    public void printAccount() {
+        System.out.println("Olá " + this.name + ", obrigado por criar uma conta em nosso banco, sua agência é " + this.agency + ", conta " + this.num + " e seu saldo " + this.balance + "  já está disponível para sake");
+    }
+
     public int getNum() {
         return num;
     }
